@@ -14,7 +14,7 @@ services:
         S3_ACCESS_KEY: "adminadmin"
         S3_SECRET_KEY: "adminadmin"
     volumes:
-        vector-store-updater:/root/ntlk_data
+        - vector-store-updater:/root/ntlk_data
 
 volumes:
     vector-store-updater:
