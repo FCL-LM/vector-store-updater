@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt
 RUN cp vsu-cron /etc/cron.d/ && \
     crontab /etc/cron.d/vsu-cron
 
-ENTRYPOINT [ "/cron" "-f" ]
+ENTRYPOINT [ "cron", "-f" ]
