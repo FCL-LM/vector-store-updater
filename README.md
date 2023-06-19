@@ -5,7 +5,7 @@
 version: "3"
 services:
   vector-store-updater:
-    image: vsu
+    image: ghcr.io/fcl-lm/vector-store-updater:main
     environment:
         ELASTIC_ENDPOINT: http://elastic:adminadmin@127.0.0.1:9200
         ELASTIC_INDEX: test_index
