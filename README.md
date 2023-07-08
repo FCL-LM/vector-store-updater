@@ -1,4 +1,5 @@
 # vector-store-updater
+vector-store-updater is the software component responsible for indexing documents in seaweedfs and uploading them to Elastisearch.
 
 ## Running with docker-compose
 ```yaml
